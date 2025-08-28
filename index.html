@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Showroom18 | Zapatillas urbanas mujer y hombre</title>
+  <meta name="description" content="Showroom18: showroom de zapatillas urbanas mujer y hombre. Modelos Nike Air Max, Adidas Samba, New Balance 530, blancas urbanas, retro y running. Envío gratis y 3 cuotas sin interés.">
+  <link rel="canonical" href="https://showroom18.vercel.app/">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    /* fallback si no carga style.css */
+    :root{--bg:#0b0b0b;--fg:#f4f4f4;--card:#141414;--line:#222;--accent:#b3e5ff;--ok:#00e676}
+    *{box-sizing:border-box}
+    body{font-family:system-ui,Arial,sans-serif;background:var(--bg);color:var(--fg);margin:0}
+    header,main,footer{max-width:1200px;margin:auto;padding:20px}
+    nav a{margin-right:16px;color:var(--accent);text-decoration:none}
+    h1{margin:0 0 .5rem 0}
+    .hero{display:flex;flex-direction:column;align-items:center;text-align:center;padding:40px 20px}
+    .hero h1{font-size:2.2rem}
+    .hero p{max-width:700px;margin:12px 0}
+    .btn-cta{background:#000;color:#fff;border:1px solid var(--line);padding:12px 20px;border-radius:10px;text-decoration:none;font-weight:600}
+    .btn-cta:hover{background:#1b1b1b}
+    .grid{display:grid;gap:18px;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));margin-top:30px}
+    .card{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:16px;text-align:center}
+    .card img{width:100%;height:auto;border-radius:12px;background:#fff}
+    .precio{font-weight:800;color:var(--ok)}
+    footer{margin-top:40px;text-align:center;font-size:.9rem;opacity:.85}
+  </style>
+
+  <!-- Datos estructurados WebSite -->
+  <script type="application/ld+json">
+  {
+    "@context":"https://schema.org",
+    "@type":"WebSite",
+    "name":"Showroom18",
+    "url":"https://showroom18.vercel.app/",
+    "potentialAction":{
+      "@type":"SearchAction",
+      "target":"https://showroom18.vercel.app/catalogo-de-zapatillas.html?q={search_term_string}",
+      "query-input":"required name=search_term_string"
+    }
+  }
+  </script>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <a href="zapatillas.html">Zapatillas</a>
+      <a href="catalogo-de-zapatillas.html">Catálogo</a>
+      <a href="quienes-somos.html">Quiénes somos</a>
+      <a href="preguntas-frecuentes.html">Preguntas frecuentes</a>
+      <a href="contacto.html">Contacto</a>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h1>Showroom18 · Zapatillas urbanas 2025</h1>
+    <p>Descubrí las mejores <strong>zapatillas urbanas mujer</strong> y <strong>zapatillas urbanas hombre</strong>. Modelos <em>Nike Air Max urbanas</em>, <em>Adidas Samba</em>, <em>New Balance 530</em> y más. También <strong>zapatillas blancas urbanas</strong>, retro y baratas.</p>
+    <a href="catalogo-de-zapatillas.html" class="btn-cta">Ver catálogo completo</a>
+  </section>
+
+  <main>
+    <h2>Destacados</h2>
+    <div class="grid">
+      <div class="card">
+        <img src="/NikeAirMaxmujer.webp" alt="Zapatillas Nike Air Max urbanas mujer blancas" loading="lazy" width="900" height="900">
+        <h3>Nike Air Max Mujer</h3>
+        <p class="precio">$ 89.990 · 3x sin interés</p>
+      </div>
+      <div class="card">
+        <img src="/adidasambamujer.webp" alt="Zapatillas Adidas Samba urbanas mujer beige" loading="lazy" width="900" height="900">
+        <h3>Adidas Samba Mujer</h3>
+        <p class="precio">$ 74.990 · 3x sin interés</p>
+      </div>
+      <div class="card">
+        <img src="/NewBalance530hombre.webp" alt="Zapatillas New Balance 530 urbanas hombre blancas" loading="lazy" width="900" height="900">
+        <h3>New Balance 530 Hombre</h3>
+        <p class="precio">$ 82.500 · 3x sin interés</p>
+      </div>
+    </div>
+    <p style="margin-top:20px;opacity:.85">Búsquedas destacadas: <strong>zapatillas urbanas retro hombre</strong>, <strong>zapatillas urbanas running hombre</strong>, <strong>zapatillas urbanas skechers</strong>, <strong>adidas campus urbanas</strong>, <strong>atomik zapatillas urbanas</strong>.</p>
+  </main>
+
+  <footer>
+    <p>© 2025 Showroom18 · Showroom de zapatillas urbanas · WhatsApp: <a href="https://wa.me/543815367063" style="color:#b3e5ff">+54 381 536 7063</a></p>
+  </footer>
+</body>
+</html>
